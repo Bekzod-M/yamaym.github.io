@@ -1,0 +1,140 @@
+@media(max-width: 1180px){
+	.section_about_products .item_2 p {
+		line-height: 30px;
+		margin: 110px 55px;
+	}
+}
+@media (min-width: 991px){
+	.header.fixed-header{
+		height: 30px;
+	}
+	.header.fixed-header .nav .menu img {
+		width: 100px;
+	}
+	.header.fixed-header .header_bg {
+		height: 75px;
+		opacity: 0.3;
+		margin-top: 15px;
+	}
+	.header.fixed-header .nav .menu{
+		top: 7px;
+	}
+	.header.fixed-header .nav .menu li a{
+		font-size: 14px;
+	}
+}
+@media(max-width: 991px){
+	.header .navbar-toggler{
+		border: 1px solid #666;
+	}
+	.header .navbar-toggler i{
+		color: #666;
+	}
+	.header .navbar{
+		padding: .5rem 1rem;
+	}
+	.header .navbar.open{
+		background: #323232cc;
+	}
+	.header .navbar .collapse{
+		height: 100vh;
+	}
+	.header .header_bg{
+		display: none;
+	}
+	.header .nav .menu{
+		position: initial;
+	}
+	.header .nav .menu li:nth-child(3){
+		order: -1;
+	}
+	.header .nav .menu li{
+		margin: 5px;
+	}
+	.section_yam_yam .row{
+		margin: 80px 0 100px;
+	}
+	.main .caption .box{
+		font-size: 110px;
+	}
+	.section_contact .contact,
+	.section_video .video,
+	.section_slider .sliders{
+		grid-template-columns: 1fr;
+	}
+	.section_video .video{
+		grid-gap: 0;
+	}
+	.section_structure .item_img.item6 img {
+		width: 100%;
+		margin-top: 80px;
+	}
+	.section_about_products .item_2 p{
+		margin: 110px auto;
+	}
+	.section_about_products .item_2{
+		background-size: 65% 100%;
+	}
+}
+@media(max-width: 767px){
+	.section_about_products .box.dec{
+		display: none;
+	}
+	.section_slider .slider_text .title{
+		font-size: 75px;
+	}
+	.section_about_products .item_2 {
+		background-size: 90% 100%;
+	}
+	.section_slider .slider .owl-prev,
+	.section_slider .slider .owl-next{
+		display: none;
+	}
+}
+@media(max-width: 480px){
+	.section_slider .slider_text .title{
+		font-size: 56px;
+	}
+	.section_slider .sliders .slider_text{
+		margin-top: -20px;
+	}
+	.section_slider .sliders .slider_text p{
+		font-size: 15px;
+	}
+	.section_slider .sliders .slider_img{
+		height: 300px;
+	}
+	.section_video video {
+		width: 300px;
+		height: 250px;
+	}
+	.section_contact .contact_form input[type="text"]{
+		padding-left: 20px;
+	}
+}
+@media(max-width: 425px){
+	.main .caption .box{
+		font-size: 81px;
+	}
+	.section_about_products .item_2 p {
+		max-width: 250px;
+		font-size: 15px;
+	}
+}
+@media(max-width: 320px){
+	.section_slider .slider_text .title{
+		font-size: 38px;
+	}
+	.divide{
+		margin: 10px 0;
+	}
+	.section_slider .sliders .slider_text p{
+		font-size: 12px;
+	}
+	.section_slider .sliders .slider_img{
+		height: 200px;
+	}
+	.section_contact .contact_form img{
+		left: 228px;
+	}
+}
